@@ -43,7 +43,7 @@ depth = -100;
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>obj_black_bg</whoName>
+        <whoName>obj_black_fade_start</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>

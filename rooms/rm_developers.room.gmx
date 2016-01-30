@@ -53,7 +53,7 @@ window_set_caption("Interwoven: Meet The Developers");</code>
   </views>
   <instances>
     <instance objName="obj_bg_start_1" x="0" y="0" name="inst_EDEFFBBD" locked="0" code="" scaleX="2.04800009727478" scaleY="1.61006283760071" colour="4294967295" rotation="0"/>
-    <instance objName="obj_black_bg" x="352" y="160" name="inst_0E308166" locked="0" code="" scaleX="11" scaleY="14" colour="4294967295" rotation="0"/>
+    <instance objName="obj_black_bg" x="320" y="192" name="inst_3898EC6D" locked="0" code="" scaleX="11" scaleY="14" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

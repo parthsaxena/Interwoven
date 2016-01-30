@@ -16,6 +16,7 @@
       <sprite>sprites\spr_devbutton</sprite>
       <sprite>sprites\spr_button_start</sprite>
       <sprite>sprites\spr_black_bg</sprite>
+      <sprite>sprites\spr_black_fade</sprite>
     </sprites>
     <sprites name="Blocks">
       <sprite>sprites\spr_darksky</sprite>
@@ -44,6 +45,8 @@
       <object>objects\obj_meetdevs_button</object>
       <object>objects\obj_bg_start_1</object>
       <object>objects\obj_black_bg</object>
+      <object>objects\obj_black_fade_start</object>
+      <object>objects\obj_black_fade_level</object>
     </objects>
     <objects name="Blocks">
       <object>objects\obj_dirt</object>
