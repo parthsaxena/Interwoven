@@ -23,6 +23,7 @@
       <sprite>sprites\spr_darkstone</sprite>
       <sprite>sprites\spr_dirt</sprite>
       <sprite>sprites\spr_grass</sprite>
+      <sprite>sprites\spr_cloud</sprite>
     </sprites>
     <sprites name="Blob">
       <sprite>sprites\spr_blob_right</sprite>
@@ -30,6 +31,7 @@
     </sprites>
     <sprites name="Player">
       <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_player_jump</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -40,6 +42,12 @@
     <font>fonts\fnt_developer_title</font>
   </fonts>
   <objects name="objects">
+    <objects name="Blocks">
+      <object>objects\obj_dirt</object>
+      <object>objects\obj_grass</object>
+      <object>objects\obj_sky</object>
+      <object>objects\obj_cloud</object>
+    </objects>
     <objects name="Start Screen">
       <object>objects\obj_startbutton</object>
       <object>objects\obj_meetdevs_button</object>
@@ -48,13 +56,10 @@
       <object>objects\obj_black_fade_start</object>
       <object>objects\obj_black_fade_level</object>
     </objects>
-    <objects name="Blocks">
-      <object>objects\obj_dirt</object>
-      <object>objects\obj_grass</object>
-      <object>objects\obj_sky</object>
+    <objects name="Entities">
+      <object>objects\obj_blob</object>
+      <object>objects\obj_player</object>
     </objects>
-    <object>objects\obj_player</object>
-    <object>objects\obj_blob</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startscreen</room>

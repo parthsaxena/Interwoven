@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
-  <colour>12632256</colour>
+  <colour>16776960</colour>
   <showcolour>-1</showcolour>
   <code>global.level = "LEVEL_ONE";
 
@@ -222,13 +222,20 @@ window_set_caption("Interwoven: Level 1");</code>
     <instance objName="obj_sky" x="768" y="256" name="inst_0B388BEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sky" x="512" y="256" name="inst_D66209C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sky" x="256" y="256" name="inst_A30C2DB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sky" x="0" y="256" name="inst_F38CDE6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sky" x="0" y="288" name="inst_F38CDE6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sky" x="0" y="512" name="inst_AAF1B1D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sky" x="256" y="512" name="inst_530517BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sky" x="512" y="512" name="inst_631A4E90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sky" x="768" y="512" name="inst_66A41E4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blob" x="672" y="576" name="inst_A449A239" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_black_fade_level" x="0" y="0" name="inst_63F8A80F" locked="0" code="" scaleX="32" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="32" y="32" name="inst_7C5E1A12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="736" y="64" name="inst_5E739F4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="608" y="256" name="inst_442F6D72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="128" y="256" name="inst_BA7DD82D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="416" y="96" name="inst_050D906B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="960" y="192" name="inst_307BA079" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="352" y="352" name="inst_3543B8B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

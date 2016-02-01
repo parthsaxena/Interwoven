@@ -26,7 +26,13 @@
           <argument>
             <kind>1</kind>
             <string>global.transitioning = true;
-alarm[5] = 120;
+alarm[5] = 60;
+
+grav = 0.2;
+hsp = 0;
+vsp = 0;
+jumpspeed = 7;
+movespeed = 4;
 
 jumped = false;
 </string>
@@ -79,6 +85,7 @@ with (obj_black_bg) {
           <argument>
             <kind>1</kind>
             <string>jumped = false;
+sprite_index = spr_player;
 </string>
           </argument>
         </arguments>
@@ -101,31 +108,74 @@ with (obj_black_bg) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Gravity
+            <string>idle = true;
 
-if (place_free(x, y+5)) {
-    y+=5;
-}
+key_right = keyboard_check(ord("D"));
+key_left = -keyboard_check(ord("A"));
+key_jump = keyboard_check_pressed(vk_space);
+key_pause = keyboard_check_pressed(vk_escape);
 
 // Movement
 
-if (keyboard_check(ord("A"))) {
+move = key_left + key_right;
+hsp = move * movespeed;
+
+if (keyboard_check_pressed(vk_escape)) {
+    
+    image_xscale = 1;
+    show_message("Game Paused");    
+}
+
+//Sprite Management
+
+if (key_right) {
+    image_speed = 0.5;
+    image_xscale = 1;
+}
+
+if (key_left == -1) {
+    image_speed = 0.5;
+    image_xscale = -1;
+}
+
+if (key_jump) {
+    sprite_index = spr_player_jump;
+}
+
+if (key_pause) {
+    show_message("Game Paused");
+}
+
+if (!key_right &amp;&amp; !key_left) {
+    sprite_index = spr_player;
+    image_speed = 0;
+}
+
+// Gravity
+
+if (vsp &lt; 10) vsp += grav;
+
+if (place_meeting(x, y+1, obj_grass)) {
+    vsp = key_jump * -jumpspeed;
+}
+
+x += hsp;
+y += vsp;
+
+/*if (keyboard_check(ord("A"))) {
     image_xscale = -1;
     if (place_free(x-5, y)) {
         if (x &gt; room_width || x &lt; 0) {
             
         } else {
+            idle = false;
             x-=5;
+            image_speed = 0.5;
         }
     }
-}
-
-if (keyboard_check_pressed(vk_escape)) {
-    // Bring up Pause Menu
-    
-    image_xscale = 1;
-    show_message("Game Paused", "Unpause");    
-}
+} else {
+    idle = true;
+} 
 
 if (keyboard_check(ord("D"))) {
     image_xscale = 1;
@@ -133,19 +183,31 @@ if (keyboard_check(ord("D"))) {
         if (x &gt; room_width || x &lt; 0) {
             
         } else {
+            idle = false;
             x+=5;
+            image_speed = 0.5;
         }
     }
+} else {
+    if (idle) idle = true;
 }
 
 if (keyboard_check_pressed(vk_space)) {
     alarm[0] = 60;
     jumped = true;
+    sprite_index = spr_player_jump;
+}*/
+
+// Bring up Pause Menu
+
+/*if (idle) {
+    image_speed = 0;
+    image_index = 0;
 }
 
 if (jumped) {
     y-=alarm[0] / 5;
-}
+}*/
 
 </string>
           </argument>
