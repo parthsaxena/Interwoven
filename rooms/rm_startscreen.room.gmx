@@ -59,6 +59,7 @@ audio_play_sound(snd_start, 1, true);</code>
     <instance objName="obj_meetdevs_button" x="288" y="448" name="inst_6520A81F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bg_start_1" x="0" y="0" name="inst_1BBA7556" locked="0" code="" scaleX="2.04800009727478" scaleY="1.61006283760071" colour="4294967295" rotation="0"/>
     <instance objName="obj_black_fade_start" x="0" y="0" name="inst_A4D8B6D0" locked="0" code="" scaleX="32" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sound_toggle" x="480" y="608" name="inst_8DC7B47D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

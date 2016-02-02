@@ -10,6 +10,7 @@
   <sprites name="sprites">
     <sprites name="Other">
       <sprite>sprites\spr_transparent_raining</sprite>
+      <sprite>sprites\spr_sound_toggle</sprite>
     </sprites>
     <sprites name="Start Screen">
       <sprite>sprites\spr_bg_start_1</sprite>
@@ -17,6 +18,8 @@
       <sprite>sprites\spr_button_start</sprite>
       <sprite>sprites\spr_black_bg</sprite>
       <sprite>sprites\spr_black_fade</sprite>
+      <sprite>sprites\spr_black_fade_big</sprite>
+      <sprite>sprites\spr_game_over</sprite>
     </sprites>
     <sprites name="Blocks">
       <sprite>sprites\spr_darksky</sprite>
@@ -30,8 +33,13 @@
       <sprite>sprites\spr_blob_left</sprite>
     </sprites>
     <sprites name="Player">
-      <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_player_idle_OLD</sprite>
+      <sprite>sprites\spr_player_jump_OLD</sprite>
+      <sprite>sprites\spr_player_run_OLD</sprite>
+      <sprite>sprites\spr_player_run</sprite>
+      <sprite>sprites\spr_player_idle</sprite>
       <sprite>sprites\spr_player_jump</sprite>
+      <sprite>sprites\spr_player_fall</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -55,10 +63,17 @@
       <object>objects\obj_black_bg</object>
       <object>objects\obj_black_fade_start</object>
       <object>objects\obj_black_fade_level</object>
+      <object>objects\obj_black_fade_big</object>
+      <object>objects\obj_black_overlay</object>
+      <object>objects\obj_gameover</object>
     </objects>
     <objects name="Entities">
       <object>objects\obj_blob</object>
       <object>objects\obj_player</object>
+    </objects>
+    <objects name="Other">
+      <object>objects\obj_sound_toggle</object>
+      <object>objects\obj_rain</object>
     </objects>
   </objects>
   <rooms name="rooms">
