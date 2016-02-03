@@ -27,6 +27,9 @@
             <kind>1</kind>
             <string>depth = -100000;
 image_alpha = 0;
+
+x = view_xview[0] + (view_wview[0] / 2);
+y = view_yview[0] + (view_hview[0] / 2); 
 </string>
           </argument>
         </arguments>
@@ -49,7 +52,11 @@ image_alpha = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (image_alpha != 1) image_alpha += 1/60;
+            <string>if (image_alpha != 1) {
+    image_alpha += 1/60; 
+    show_debug_message("INCREASING ALPHA:" + string(image_alpha));
+    //with (obj_black_fade_big) instance_destroy();
+}
 </string>
           </argument>
         </arguments>

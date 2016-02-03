@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -1000000;
+            <string>depth = -99999;
 image_alpha = 0;
 
 global.transitioning = true;
-alarm[0] = 120;
+alarm[0] = 60;
 </string>
           </argument>
         </arguments>
@@ -54,6 +54,7 @@ alarm[0] = 120;
             <kind>1</kind>
             <string>global.transitioning = false;
 
+// **IMPORTANT** Positioning will not work in this line! We set the x and y in the Create event for obj_gameover
 instance_create(room_width/2, room_height/2, obj_gameover);
 </string>
           </argument>
@@ -80,6 +81,14 @@ instance_create(room_width/2, room_height/2, obj_gameover);
             <string>if (global.transitioning == true) {
     image_alpha+=1/60;
 }
+
+with (obj_gameover) {
+
+    show_debug_message("STRING DEPTH: " + string(depth));
+    
+}
+show_debug_message("BG DEPTH: " + string(depth));
+
 
 </string>
           </argument>

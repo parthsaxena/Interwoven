@@ -60,12 +60,6 @@
       <object>objects\obj_startbutton</object>
       <object>objects\obj_meetdevs_button</object>
       <object>objects\obj_bg_start_1</object>
-      <object>objects\obj_black_bg</object>
-      <object>objects\obj_black_fade_start</object>
-      <object>objects\obj_black_fade_level</object>
-      <object>objects\obj_black_fade_big</object>
-      <object>objects\obj_black_overlay</object>
-      <object>objects\obj_gameover</object>
     </objects>
     <objects name="Entities">
       <object>objects\obj_blob</object>
@@ -73,7 +67,15 @@
     </objects>
     <objects name="Other">
       <object>objects\obj_sound_toggle</object>
+      <object>objects\obj_gameover</object>
       <object>objects\obj_rain</object>
+    </objects>
+    <objects name="BG">
+      <object>objects\obj_black_bg</object>
+      <object>objects\obj_black_fade_level</object>
+      <object>objects\obj_black_fade_start</object>
+      <object>objects\obj_black_fade_big</object>
+      <object>objects\obj_black_overlay</object>
     </objects>
   </objects>
   <rooms name="rooms">
