@@ -27,6 +27,7 @@
       <sprite>sprites\spr_dirt</sprite>
       <sprite>sprites\spr_grass</sprite>
       <sprite>sprites\spr_cloud</sprite>
+      <sprite>sprites\spr_dummy_wall</sprite>
     </sprites>
     <sprites name="Blob">
       <sprite>sprites\spr_blob_right</sprite>
@@ -42,7 +43,9 @@
       <sprite>sprites\spr_player_fall</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\tiles</background>
+  </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fnt_title</font>
@@ -80,8 +83,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startscreen</room>
-    <room>rooms\rm_level_one</room>
+    <room>rooms\rm_level_one_old</room>
     <room>rooms\rm_developers</room>
+    <room>rooms\rm_level_one</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

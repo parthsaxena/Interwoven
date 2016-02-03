@@ -65,9 +65,16 @@ moveSpeed = 3;
           <argument>
             <kind>1</kind>
             <string>// Gravity
-
 if (place_free(x, y+5)) {
     y+=5;
+} else if(place_free(x, y+4)) {
+    y+=4;
+} else if(place_free(x, y+3)) {
+    y+=3;
+} else if(place_free(x, y+2)) {
+    y+=2;
+} else if(place_free(x, y+1)) {
+    y+=1;
 }
 
 // Movement
@@ -94,8 +101,6 @@ if (moveRight) {
         moveLeft = true;
     } 
 }
-
-
 </string>
           </argument>
         </arguments>
