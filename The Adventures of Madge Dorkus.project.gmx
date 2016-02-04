@@ -27,6 +27,7 @@
       <sprite>sprites\spr_dirt</sprite>
       <sprite>sprites\spr_grass</sprite>
       <sprite>sprites\spr_cloud</sprite>
+      <sprite>sprites\spr_door</sprite>
       <sprite>sprites\spr_dummy_wall</sprite>
     </sprites>
     <sprites name="Blob">
@@ -58,6 +59,7 @@
       <object>objects\obj_grass</object>
       <object>objects\obj_sky</object>
       <object>objects\obj_cloud</object>
+      <object>objects\obj_door</object>
     </objects>
     <objects name="Start Screen">
       <object>objects\obj_startbutton</object>
@@ -83,9 +85,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startscreen</room>
-    <room>rooms\rm_level_one_old</room>
     <room>rooms\rm_developers</room>
     <room>rooms\rm_level_one</room>
+    <room>rooms\rm_level_two</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
