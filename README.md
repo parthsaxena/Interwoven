@@ -1,9 +1,9 @@
-# The-Adventures-of-Bob
-A platformer game about the adventures of Madge Dorkus
+# Interwoven
+A platformer game about the adventures of Igor Saveli.
 
 # Story
-Bob is a low-accomplished construction worker who went to a poor college. He has nothing to put on his grave when he dies, cannot say he accomplished anything, and has nobody to call a friend. He finally finds the love of his life, but she gets kidnapped. It is now Bob's duty in life to find her. 
+Igor is a low-accomplished construction worker who went to a poor college. He has nothing to put on his grave when he dies, cannot say he accomplished anything, and has nobody to call a friend. He finally finds the love of his life, but she gets kidnapped. It is now Igor's duty in life to find her. 
 
-# Contact Me
+# Contact Us
 Email: parth@scapter.org
 
