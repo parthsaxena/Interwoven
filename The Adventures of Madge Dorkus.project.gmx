@@ -11,6 +11,7 @@
     <sprites name="Other">
       <sprite>sprites\spr_transparent_raining</sprite>
       <sprite>sprites\spr_sound_toggle</sprite>
+      <sprite>sprites\spr_selection_menu</sprite>
     </sprites>
     <sprites name="Start Screen">
       <sprite>sprites\spr_bg_start_1</sprite>
@@ -48,6 +49,9 @@
     <background>background\tiles</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_gameover.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_title</font>
     <font>fonts\fnt_developer</font>
@@ -74,6 +78,7 @@
       <object>objects\obj_sound_toggle</object>
       <object>objects\obj_gameover</object>
       <object>objects\obj_rain</object>
+      <object>objects\obj_selection_menu_startscreen</object>
     </objects>
     <objects name="BG">
       <object>objects\obj_black_bg</object>
@@ -88,6 +93,7 @@
     <room>rooms\rm_developers</room>
     <room>rooms\rm_level_one</room>
     <room>rooms\rm_level_two</room>
+    <room>rooms\rm_level_three</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

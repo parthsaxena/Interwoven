@@ -35,8 +35,11 @@ hsp = 0;
 vsp = 0;
 jumpspeed = 7;
 movespeed = 4;
+sprintValue = 3;
 
 jumped = false;
+
+gamepad_set_axis_deadzone(0, 0.3);
 </string>
           </argument>
         </arguments>
@@ -88,17 +91,24 @@ with (obj_black_bg) {
             <kind>1</kind>
             <string>idle = true;
 
-key_right = keyboard_check(ord("D"));
-key_left = -keyboard_check(ord("A"));
-key_jump = keyboard_check_pressed(vk_space);
+key_right = keyboard_check(ord("D")) || (gamepad_axis_value(0, gp_axislh) &gt; 0);
+key_sprint = keyboard_check(ord("Z")) || (gamepad_button_check(0, gp_shoulderrb));
+key_left = -(keyboard_check(ord("A")) || (gamepad_axis_value(0, gp_axislh) &lt; 0));
+key_jump = keyboard_check_pressed(vk_space) || (gamepad_button_check_pressed(0, gp_face1));
+key_jump_held = keyboard_check(vk_space) || (gamepad_button_check(0, gp_face1));
 key_pause = keyboard_check_pressed(vk_escape);
 
 // Movement
-move = key_left + key_right;
-hsp = move * movespeed;
 
-if (keyboard_check_pressed(vk_escape)) {
-    
+if (key_sprint) {
+    move = key_left + key_right;
+    hsp = move * (movespeed + sprintValue);
+} else {
+    move = key_left + key_right;
+    hsp = move * movespeed;
+}
+
+if (keyboard_check_pressed(vk_escape)) { 
     image_xscale = 1;
     show_message("Game Paused");    
 }
@@ -114,6 +124,8 @@ if (vsp &lt; 10) vsp += grav;
 if (place_meeting(x, y+1, obj_grass)) {
     vsp = key_jump * -jumpspeed;
 }
+
+if (vsp &lt; 0) &amp;&amp; (!key_jump_held) vsp = max(vsp, -jumpspeed/2);
 
 horizontalCheck = place_meeting(x+hsp, y, obj_grass) || place_meeting(x+hsp, y, obj_dirt);
 verticalCheck = place_meeting(x, y+vsp, obj_grass) || place_meeting(x, y+vsp, obj_dirt);
@@ -145,7 +157,7 @@ if (place_meeting(x, y+1, obj_grass)) {
     if (vsp &lt; 0) sprite_index = spr_player_jump; else sprite_index = spr_player_fall;
 }
 
-
+if (y &gt; 768) script_execute(scr_gameover);
 
 
 </string>

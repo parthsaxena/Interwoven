@@ -3,14 +3,16 @@
   <caption></caption>
   <width>2112</width>
   <height>768</height>
-  <vsnap>48</vsnap>
-  <hsnap>48</hsnap>
+  <vsnap>32</vsnap>
+  <hsnap>26</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>window_set_caption("Interwoven: Level 2");</code>
+  <code>global.level = "LEVEL_TWO";
+
+window_set_caption("Interwoven: Level 2");</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>0</clearDisplayBuffer>
@@ -65,11 +67,11 @@
     <instance objName="obj_grass" x="1824" y="336" name="inst_86686812" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="1872" y="288" name="inst_0DBA323C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="1872" y="240" name="inst_A42444F2" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="48" y="192" name="inst_FBEE04E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blob" x="768" y="240" name="inst_9B17E1D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blob" x="960" y="240" name="inst_EC3B44D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blob" x="702" y="448" name="inst_9B17E1D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blob" x="960" y="460" name="inst_EC3B44D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blob" x="1536" y="192" name="inst_02B5EBB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rain" x="-48" y="0" name="inst_208CD20C" locked="0" code="" scaleX="1.58823525905609" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rain" x="0" y="0" name="inst_208CD20C" locked="0" code="" scaleX="1.58823525905609" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="78" y="448" name="inst_2F976694" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tiles" x="0" y="480" w="48" h="48" xo="48" yo="0" id="10001222" name="inst_47EE6C74" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

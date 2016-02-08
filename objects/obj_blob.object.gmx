@@ -133,13 +133,7 @@ if (moveRight) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
-
-instance_create(0, 0, obj_black_fade_big);
-with (obj_black_fade_big) {
-    global.transitioning = true;
-    alarm[0] = 60;
-}
+            <string>script_execute(scr_gameover);
 </string>
           </argument>
         </arguments>

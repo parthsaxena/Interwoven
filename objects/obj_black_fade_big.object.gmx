@@ -25,11 +25,38 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -99999;
+            <string>depth = -550;
 image_alpha = 0;
 
 global.transitioning = true;
 alarm[0] = 60;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>show_debug_message("RESTARTING GAME");
+
+if (global.level == "LEVEL_ONE") room_goto(rm_level_one);
+if (global.level == "LEVEL_TWO") room_goto(rm_level_two);
+if (global.level == "LEVEL_THREE") room_goto(rm_level_three);
 </string>
           </argument>
         </arguments>
@@ -54,8 +81,11 @@ alarm[0] = 60;
             <kind>1</kind>
             <string>global.transitioning = false;
 
+screenWidth = view_xview[1] + 512;
+screenHeight = view_yview[1] + 384;
+
 // **IMPORTANT** Positioning will not work in this line! We set the x and y in the Create event for obj_gameover
-instance_create(room_width/2, room_height/2, obj_gameover);
+instance_create(view_xview[1] + 512, view_yview[1] + 384, obj_gameover);
 </string>
           </argument>
         </arguments>
@@ -81,14 +111,6 @@ instance_create(room_width/2, room_height/2, obj_gameover);
             <string>if (global.transitioning == true) {
     image_alpha+=1/60;
 }
-
-with (obj_gameover) {
-
-    show_debug_message("STRING DEPTH: " + string(depth));
-    
-}
-show_debug_message("BG DEPTH: " + string(depth));
-
 
 </string>
           </argument>

@@ -3,14 +3,16 @@
   <caption></caption>
   <width>2112</width>
   <height>768</height>
-  <vsnap>48</vsnap>
-  <hsnap>48</hsnap>
+  <vsnap>32</vsnap>
+  <hsnap>26</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>window_set_caption("Interwoven: Level 1");</code>
+  <code>global.level = "LEVEL_ONE";
+
+window_set_caption("Interwoven: Level 1");</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>0</clearDisplayBuffer>
@@ -54,8 +56,8 @@
     <instance objName="obj_grass" x="0" y="624" name="inst_EB765A62" locked="0" code="" scaleX="44" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="0" y="576" name="inst_5EE9212B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="0" y="528" name="inst_C71BB614" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="144" y="384" name="inst_68B18ADF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blob" x="816" y="384" name="inst_D88C7BD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="130" y="608" name="inst_68B18ADF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blob" x="858" y="608" name="inst_D88C7BD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_black_overlay" x="0" y="0" name="inst_ADDB4460" locked="0" code="" scaleX="2.0625" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="2064" y="576" name="inst_7B05CBF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="2064" y="528" name="inst_057D0CAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -68,7 +70,8 @@
     <instance objName="obj_cloud" x="0" y="48" name="inst_A21A5E30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cloud" x="1920" y="192" name="inst_EF940F9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cloud" x="1536" y="48" name="inst_9062E715" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rain" x="0" y="-576" name="inst_CC658907" locked="0" code="" scaleX="1.55294108390808" scaleY="1.86666667461395" colour="4294967295" rotation="0"/>
+    <instance objName="obj_black_fade_level" x="0" y="0" name="inst_D4B4E5A8" locked="0" code="" scaleX="66" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rain" x="0" y="0" name="inst_8A552321" locked="0" code="" scaleX="1.54852938652039" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tiles" x="0" y="0" w="48" h="48" xo="0" yo="48" id="10000001" name="inst_CC80531F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
