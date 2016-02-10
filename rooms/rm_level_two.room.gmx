@@ -12,7 +12,9 @@
   <showcolour>-1</showcolour>
   <code>global.level = "LEVEL_TWO";
 
-window_set_caption("Interwoven: Level 2");</code>
+window_set_caption("Interwoven: Level 2");
+
+script_execute(scr_level_two);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>0</clearDisplayBuffer>
@@ -72,6 +74,7 @@ window_set_caption("Interwoven: Level 2");</code>
     <instance objName="obj_blob" x="1536" y="192" name="inst_02B5EBB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rain" x="0" y="0" name="inst_208CD20C" locked="0" code="" scaleX="1.58823525905609" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="78" y="448" name="inst_2F976694" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fade_level_two" x="0" y="0" name="inst_3235587B" locked="0" code="" scaleX="65.8099975585938" scaleY="24" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tiles" x="0" y="480" w="48" h="48" xo="48" yo="0" id="10001222" name="inst_47EE6C74" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -72,6 +72,7 @@ window_set_caption("Interwoven: Level 1");</code>
     <instance objName="obj_cloud" x="1536" y="48" name="inst_9062E715" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_black_fade_level" x="0" y="0" name="inst_D4B4E5A8" locked="0" code="" scaleX="66" scaleY="24" colour="4294967295" rotation="0"/>
     <instance objName="obj_rain" x="0" y="0" name="inst_8A552321" locked="0" code="" scaleX="1.54852938652039" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fade_level_one" x="0" y="0" name="inst_5067925D" locked="0" code="" scaleX="65.8125" scaleY="24" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tiles" x="0" y="0" w="48" h="48" xo="0" yo="48" id="10000001" name="inst_CC80531F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

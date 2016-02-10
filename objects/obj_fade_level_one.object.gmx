@@ -28,8 +28,34 @@
             <string>depth = -525;
 image_alpha = 1;
 
-global.transitioning = true;
-alarm[0] = 120;
+transitioning = false;
+
+instance_create(view_xview[1] + 512, view_yview[1] + 384, obj_level_one);
+
+alarm[0] = 60;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>transitioning = false;
 </string>
           </argument>
         </arguments>
@@ -52,7 +78,8 @@ alarm[0] = 120;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.transitioning = false;
+            <string>alarm[1] = 60;
+transitioning = true;
 </string>
           </argument>
         </arguments>
@@ -75,10 +102,10 @@ alarm[0] = 120;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.transitioning == true) {
+            <string>if (transitioning) {
     image_alpha-=1/60;
+    with (obj_level_one) image_alpha-=1/60;
 }
-
 </string>
           </argument>
         </arguments>

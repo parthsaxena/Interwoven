@@ -21,6 +21,9 @@
       <sprite>sprites\spr_black_fade</sprite>
       <sprite>sprites\spr_black_fade_big</sprite>
       <sprite>sprites\spr_game_over</sprite>
+      <sprite>sprites\spr_level_two</sprite>
+      <sprite>sprites\spr_level_one</sprite>
+      <sprite>sprites\spr_level_three</sprite>
     </sprites>
     <sprites name="Blocks">
       <sprite>sprites\spr_darksky</sprite>
@@ -52,6 +55,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_gameover.gml</script>
+    <script>scripts\scr_level_two.gml</script>
     <script>scripts\scr_youwin.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -81,6 +85,9 @@
       <object>objects\obj_gameover</object>
       <object>objects\obj_rain</object>
       <object>objects\obj_selection_menu_startscreen</object>
+      <object>objects\obj_level_two</object>
+      <object>objects\obj_level_one</object>
+      <object>objects\obj_level_three</object>
     </objects>
     <objects name="BG">
       <object>objects\obj_black_bg</object>
@@ -91,6 +98,13 @@
     </objects>
     <objects name="Level 3 Special">
       <object>objects\obj_wall_transparent</object>
+      <object>objects\obj_fade_level_three</object>
+    </objects>
+    <objects name="Level 2 Special">
+      <object>objects\obj_fade_level_two</object>
+    </objects>
+    <objects name="Level 1 Special">
+      <object>objects\obj_fade_level_one</object>
     </objects>
   </objects>
   <rooms name="rooms">

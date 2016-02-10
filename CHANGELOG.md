@@ -1,3 +1,9 @@
+# v1.1.2
+- Updated Level Three
+- Added new fading system
+- Added level faders
+- Fixed some bugs
+
 # v1.1.1 
 - Added Level Three
 - Added new types of blocks

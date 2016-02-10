@@ -7,4 +7,3 @@ with (obj_black_fade_big) {
     alarm[0] = 60;
 }
 
-
