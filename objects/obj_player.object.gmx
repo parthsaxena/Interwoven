@@ -99,7 +99,6 @@ key_jump_held = keyboard_check(vk_space) || (gamepad_button_check(0, gp_face1));
 key_pause = keyboard_check_pressed(vk_escape);
 
 // Movement
-
 if (key_sprint) {
     move = key_left + key_right;
     hsp = move * (movespeed + sprintValue);
@@ -115,7 +114,19 @@ if (keyboard_check_pressed(vk_escape)) {
 
 // Pause Game
 if (key_pause) {
-    show_message("Game Paused");
+    global.gamePaused = !global.gamePaused;
+    
+    if (global.gamePaused) {
+        // User is trying to unpause game
+        global.gamePaused = false;
+        instance_activate_all();
+    } else {
+        // User is trying to pause game
+        global.gamePaused = true;
+        instance_deactivate_all(false);
+    }
+    
+    //show_message("Game Paused");
 }
 
 // Gravity

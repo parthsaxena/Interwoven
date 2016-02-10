@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>26</hsnap>
+  <vsnap>48</vsnap>
+  <hsnap>48</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -43,14 +43,14 @@ window_set_caption("Interwoven: Level 3");</code>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="512" vborder="512" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="512" vborder="512" hspeed="-1" vspeed="-1"/>
     <view visible="-1" objName="obj_player" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="256" vborder="256" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
     <instance objName="obj_grass" x="144" y="0" name="inst_B5B59E40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -60,11 +60,6 @@ window_set_caption("Interwoven: Level 3");</code>
     <instance objName="obj_grass" x="96" y="144" name="inst_7ABC5745" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="48" y="144" name="inst_AE293CBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="0" y="144" name="inst_357D7F1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_grass" x="0" y="192" name="inst_CAE075A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_grass" x="0" y="240" name="inst_9E9FD2D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_grass" x="0" y="288" name="inst_11BAE48D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_grass" x="0" y="336" name="inst_B756E93F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_grass" x="0" y="384" name="inst_865F2C02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="0" y="432" name="inst_3A65FEA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="48" y="432" name="inst_A58294DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="96" y="432" name="inst_ACFC664B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -85,8 +80,6 @@ window_set_caption("Interwoven: Level 3");</code>
     <instance objName="obj_grass" x="1008" y="192" name="inst_C517B080" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="1008" y="240" name="inst_B29E9C86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="1008" y="288" name="inst_F69B5397" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_grass" x="1008" y="336" name="inst_A443EE7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_grass" x="1008" y="384" name="inst_B25A5C33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="960" y="432" name="inst_9B1B7838" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="1008" y="432" name="inst_E2808335" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="912" y="432" name="inst_6A83C18C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -101,6 +94,13 @@ window_set_caption("Interwoven: Level 3");</code>
     <instance objName="obj_player" x="78" y="416" name="inst_C97EA7D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_black_overlay" x="0" y="0" name="inst_1DD8CF74" locked="0" code="" scaleX="1.041015625" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rain" x="0" y="0" name="inst_EA6C0C82" locked="0" code="" scaleX="0.779999971389771" scaleY="1.06666672229767" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall_transparent" x="0" y="336" name="inst_EFC812E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall_transparent" x="0" y="384" name="inst_00EFEA77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall_transparent" x="1008" y="336" name="inst_A8EC7758" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall_transparent" x="1008" y="384" name="inst_371F6A7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_grass" x="0" y="288" name="inst_749EB677" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_grass" x="0" y="240" name="inst_CD5CC988" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_grass" x="0" y="192" name="inst_8065AFDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tiles" x="192" y="0" w="48" h="48" xo="0" yo="48" id="10002182" name="inst_9AA1E44A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -224,8 +224,6 @@ window_set_caption("Interwoven: Level 3");</code>
     <tile bgName="tiles" x="192" y="336" w="48" h="48" xo="0" yo="48" id="10002353" name="inst_D038213A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="144" y="336" w="48" h="48" xo="0" yo="48" id="10002354" name="inst_13383F4C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="96" y="336" w="48" h="48" xo="0" yo="48" id="10002355" name="inst_AF4ADFE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tiles" x="48" y="336" w="48" h="48" xo="0" yo="48" id="10002356" name="inst_536EBE84" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tiles" x="48" y="384" w="48" h="48" xo="0" yo="48" id="10002361" name="inst_666ED548" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="96" y="384" w="48" h="48" xo="0" yo="48" id="10002362" name="inst_F9DC3F67" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="144" y="384" w="48" h="48" xo="0" yo="48" id="10002363" name="inst_36FA48DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="480" y="384" w="48" h="48" xo="0" yo="48" id="10002370" name="inst_A4C7EB49" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -358,9 +356,6 @@ window_set_caption("Interwoven: Level 3");</code>
     <tile bgName="tiles" x="144" y="672" w="48" h="48" xo="144" yo="0" id="10002624" name="inst_1AB84B59" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="144" y="720" w="48" h="48" xo="144" yo="0" id="10002625" name="inst_698373C0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="0" y="432" w="48" h="48" xo="96" yo="0" id="10002626" name="inst_23FEF0CF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tiles" x="0" y="288" w="48" h="48" xo="144" yo="0" id="10002627" name="inst_F9EE2C50" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tiles" x="0" y="336" w="48" h="48" xo="144" yo="0" id="10002628" name="inst_DB152450" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tiles" x="0" y="384" w="48" h="48" xo="144" yo="0" id="10002629" name="inst_87F08D74" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="0" y="240" w="48" h="48" xo="144" yo="0" id="10002630" name="inst_30697AA0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="0" y="192" w="48" h="48" xo="144" yo="0" id="10002631" name="inst_12866013" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="48" y="192" w="48" h="48" xo="0" yo="0" id="10002632" name="inst_7FBEB5BC" depth="1000000" locked="0" colour="4294967295" scaleX="-1" scaleY="-1"/>
@@ -462,6 +457,11 @@ window_set_caption("Interwoven: Level 3");</code>
     <tile bgName="tiles" x="864" y="192" w="48" h="48" xo="192" yo="48" id="10002765" name="inst_C8733966" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="912" y="192" w="48" h="48" xo="192" yo="48" id="10002766" name="inst_50F0C602" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tiles" x="960" y="192" w="48" h="48" xo="192" yo="48" id="10002767" name="inst_03640890" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tiles" x="48" y="336" w="48" h="48" xo="0" yo="48" id="10002781" name="inst_52E9C019" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tiles" x="48" y="384" w="48" h="48" xo="0" yo="48" id="10002782" name="inst_160F48BA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tiles" x="0" y="384" w="48" h="48" xo="144" yo="0" id="10002785" name="inst_6DB9502E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tiles" x="0" y="336" w="48" h="48" xo="144" yo="0" id="10002786" name="inst_7505FC0B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tiles" x="0" y="288" w="48" h="48" xo="144" yo="0" id="10002787" name="inst_EB1EF270" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

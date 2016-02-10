@@ -44,6 +44,7 @@
       <sprite>sprites\spr_player_jump</sprite>
       <sprite>sprites\spr_player_fall</sprite>
     </sprites>
+    <sprite>sprites\spr_enemy_big</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tiles</background>
@@ -51,6 +52,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_gameover.gml</script>
+    <script>scripts\scr_youwin.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_title</font>
@@ -86,6 +88,9 @@
       <object>objects\obj_black_fade_start</object>
       <object>objects\obj_black_fade_big</object>
       <object>objects\obj_black_overlay</object>
+    </objects>
+    <objects name="Level 3 Special">
+      <object>objects\obj_wall_transparent</object>
     </objects>
   </objects>
   <rooms name="rooms">

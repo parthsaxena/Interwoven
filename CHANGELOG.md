@@ -1,3 +1,9 @@
+# v1.1.1 
+- Added Level Three
+- Added new types of blocks
+- Small update to tile system
+- Fixed some bugs
+
 # v1.1 (HUGE)
 - Added much more stability
 - Added GameOver screen [functional]
