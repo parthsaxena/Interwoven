@@ -1,4 +1,4 @@
-### Copyright Parth Saxena (c) 2016
+##### Copyright Parth Saxena (c) 2016
 
 # Interwoven
 A platformer game about the adventures of Igor Saveli.
